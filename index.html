@@ -7,23 +7,30 @@
         <link href="index.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Homeless/ChildLabour</h1>
-        <hr>
-        <div>
+        <div class="bg-image">
+            <div class="bg-text">
+                <h1>Feed the poor.</h1>
+                <h1>Educate the young!</h1>
+            </div>
+        
+        <div class="container1">
+        <h2>Homeless/ChildLabour</h2>
+        <br><hr><br>
         <form>
             <label for="name">Name: </label><br>
             <input id="name" type="text" required placeholder="Enter the person's name">
-            <br>
+            <br><br>
             <label for="age">Age:</label><br>
-            <input id="age" type="text" placeholder="Enter approx. age">
-            <br>
+            <input id="age" type="text" placeholder="Enter approx. age of person">
+            <br><br>
             <span>Use my current location</span>
-            <br>
+            <br><br>
             <label for="location">Location:</label><br>
             <input id="location" type="text" required placeholder="Enter your current location">
-            <br>
+            <br><br>
             <label for="landmark">Landmark:</label><br>
             <input id="landmark" type="text" required placeholder="Enter nearest landmark">
+            <br><br>
             <ul>
                 <li>
                     <label for="homeless_childlabour">Homeless/Street Begging</label>
@@ -34,14 +41,15 @@
                     <input type="checkbox" name="homeless" id="homeless_childlabour">
                 </li>
             </ul>
-            <br>
-            <span>Take a pic</span>
-            <br>
-            <span>Record Audio</span>
-            <br>
+            <br><br>
+            <input type="button" value="Take a pic">
+            <br><br>
+            <input type="button" value="Record Audio">
+            <br><br>
             <input type="submit" value="Send">
-            
         </form>
     </div>
+        </div>
+        <p>Note that it's particularly not recommended to use a pixel dimension and an auto dimension with a, because it's impossible to replicate rendering in versions of Firefox prior to 8, and in browsers not implementing Firefox 8's rendering, without knowing the exact size of the element whose background is being specified.</p>
     </body>
 </html>
