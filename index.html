@@ -4,23 +4,25 @@
         <title>
             Feed the poor. Educate the young
         </title>
-        <link href="/index.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
     </head>
     <body>
         <h1>Homeless/ChildLabour</h1>
+        <hr>
+        <div>
         <form>
-            <label for="name">Name: </label>
-            <input id="name" type="text" required>
+            <label for="name">Name: </label><br>
+            <input id="name" type="text" required placeholder="Enter the person's name">
             <br>
-            <label for="age">Age (approx):</label>
-            <input id="age" type="text">
+            <label for="age">Age:</label><br>
+            <input id="age" type="text" placeholder="Enter approx. age">
             <br>
             <span>Use my current location</span>
             <br>
-            <label for="location">Location:</label>
+            <label for="location">Location:</label><br>
             <input id="location" type="text" required placeholder="Enter your current location">
             <br>
-            <label for="landmark">Landmark:</label>
+            <label for="landmark">Landmark:</label><br>
             <input id="landmark" type="text" required placeholder="Enter nearest landmark">
             <ul>
                 <li>
@@ -32,6 +34,7 @@
                     <input type="checkbox" name="homeless" id="homeless_childlabour">
                 </li>
             </ul>
+            <br>
             <span>Take a pic</span>
             <br>
             <span>Record Audio</span>
@@ -39,5 +42,6 @@
             <input type="submit" value="Send">
             
         </form>
+    </div>
     </body>
 </html>
